@@ -1,5 +1,5 @@
 class TextContent {
-  static const String discover = "Discover the most modern furniture";
+  static const String discover = "Discover the most \nmodern furniture";
   static const String recommended = "Recommended Furnitures";
   static const List<String> tabBarTitle = [
     "All",
