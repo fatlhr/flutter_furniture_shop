@@ -13,10 +13,10 @@ ThemeData themeData() {
       elevation: 0,
     ),
     cardTheme: const CardTheme(
-      color: ColorLib.background,
+      color: ColorLib.choco,
       shadowColor: ColorLib.lightGrey,
-      elevation: 20,
-      margin: EdgeInsets.fromLTRB(16, 8, 0, 0),
+      elevation: 0,
+      //margin: EdgeInsets.fromLTRB(14, 8, 0, 0),
     ),
     iconTheme: const IconThemeData(
       color: ColorLib.blackText,
@@ -29,9 +29,11 @@ TextTheme textTheme() {
     headline5: TextStyle(
         color: ColorLib.blackText, fontWeight: FontWeight.w500, fontSize: 22),
     headline6: TextStyle(
-        color: ColorLib.blackText, fontWeight: FontWeight.bold, fontSize: 16),
+        color: ColorLib.blackText, fontWeight: FontWeight.w500, fontSize: 16),
     bodyText1: TextStyle(
-        color: ColorLib.blackText, fontWeight: FontWeight.normal, fontSize: 14),
+        color: ColorLib.blackText, fontWeight: FontWeight.w500, fontSize: 14),
+    subtitle1: TextStyle(
+        color: ColorLib.blackText, fontWeight: FontWeight.normal, fontSize: 20),
     caption: TextStyle(
         color: ColorLib.blackText, fontWeight: FontWeight.normal, fontSize: 12),
   );
