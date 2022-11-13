@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_furniture_shop/app/configs/content_const.dart';
-import 'package:flutter_furniture_shop/app/detail_page/detail_page.dart';
-import 'package:flutter_furniture_shop/app/home_page/widgets/tabr_bar_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'widgets/appBar_widget.dart';
 import 'widgets/contentCardWidget.dart';
+import 'widgets/tabr_bar_widget.dart';
+import '../detail_page/detail_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -21,8 +21,6 @@ class HomePage extends StatelessWidget {
           ),
           child: const AppBarWidget(
             title: 'Home',
-            isMoreOneAction: false,
-            isCustomLeading: true,
           ),
         ),
         body: CustomScrollView(

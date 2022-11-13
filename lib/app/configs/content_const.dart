@@ -1,3 +1,7 @@
+import 'dart:ui';
+
+import 'package:flutter_furniture_shop/app/configs/color_lib.dart';
+
 class ContentConst {
   static const String discover = "Discover the most \nmodern furniture";
   static const String recommended = "Recommended Furnitures";
@@ -26,6 +30,12 @@ class ContentConst {
     "assets/image3.png",
     "assets/image3.png",
     "assets/image3.png"
+  ];
+  static const List<Color> colorPicker = [
+    ColorLib.grey,
+    ColorLib.yellow,
+    ColorLib.lightGrey,
+    ColorLib.choco,
   ];
   static const List<double> contentRate = [4.8, 4.9, 4.7, 4.9, 4.9, 4.9, 4.9];
   static const List<int> contentPrice = [170, 75, 240, 210, 210, 210, 210];
